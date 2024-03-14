@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-family:monospace;
+    color: #2406ad;
+    background-color: rgb(163, 156, 229);
+    
+    
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    height: 100%;
+}
+
+.image-container {
+    width: 33.33%;
+    position: relative;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    display: flex;
+}
+
+.buttons button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+
+    
+
+}
+
+/* doesn't work */
+.liked {
+    color: rgb(9, 44, 244); 
+}
+
+.total-text {
+    text-align: center; 
+    font-size: 24px;
+
+}
+
+#total price {
+    font-weight: bold;
+}
+

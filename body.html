@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Panier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Mon Panier</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="../JS_CHECKPOINT/images/image3.png" alt="Image 1">
+            <div class="buttons">
+                <button class="plus-btn" onclick="increaseQuantity(0)">+</button>
+                <button class="like-btn" onclick="toggleLike(0)">❤️</button>
+                <button class="minus-btn" onclick="decreaseQuantity(0)">-</button>
+                <button class="prix">200€</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../JS_CHECKPOINT/images/image1.png" alt="Image 2">
+            <div class="buttons">
+                <button class="plus-btn" onclick="increaseQuantity(1)">+</button>
+                <button class="like-btn" onclick="toggleLike(1)">❤️</button>
+                <button class="minus-btn" onclick="decreaseQuantity(1)">-</button>
+                <button class="prix">400€</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../JS_CHECKPOINT/images/image2.png" alt="Image 3">
+            <div class="buttons">
+                <button class="plus-btn" onclick="increaseQuantity(2)">+</button>
+                <button class="like-btn" onclick="toggleLike(2)">❤️</button>
+                <button class="minus-btn" onclick="decreaseQuantity(2)">-</button>
+                <button class="prix">140€</button>
+            </div>
+        </div>
+    </div>
+    <p class="total-text">Total à payer: <price><span id="total-price">0</span>€</price></p>
+
+
+    <script src="panier.js"></script>
+</body>
+</html>
