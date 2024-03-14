@@ -14,16 +14,17 @@ body, html {
     
 }
 
+/*la zone qui contient les images */
 .container {
     display: flex;
-    flex-direction:row;
+    flex-direction:row; /*pics horizontalement*/
     height: 100%;
 }
 
+/*for chaque pic */
 .image-container {
     width: 33.33%;
-    position: relative;
-    
+    position: relative;    
 }
 
 img {
